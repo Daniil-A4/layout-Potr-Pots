@@ -1,0 +1,17 @@
+.swiper {
+  &-pagination-horizontal.swiper-pagination-bullets &-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    background-color: #f8f8f8;
+    border-radius: 0;
+    opacity: 1;
+    transform: rotate(45deg);
+    margin: 0;
+    box-sizing: border-box;
+
+    &.swiper-pagination-bullet-active {
+      background-color: #00000082;
+      border: 1px solid #fff;
+    }
+  }
+}
